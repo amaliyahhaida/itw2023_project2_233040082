@@ -1,0 +1,82 @@
+.navbar-brand img {
+  width: 70px;
+  margin-right: 10px;
+}
+.main {
+  background: url(img/background.jpg)no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+}
+.main h1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 700;
+}
+.icon-cart {
+  cursor: pointer;
+  padding-left: 10px;
+}
+.btn1 {
+  font-size: 15px;
+  color: white;
+  background: rgb(97, 192, 97);
+  border-radius: 5px;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.btn1:hover{
+  background: rgb(164, 65, 65);
+  transform: scaleX(1.1);
+}
+.card img {
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.card:hover img {
+  transform: scale(1.1);
+}
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #000000;
+}
+.lingkaran i {
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+}
+.crop-img {
+  object-fit: cover;
+}
+.branch img {
+  width: 250px;
+  border: 10px solid #cccccc;
+}
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: grey;
+  line-height: 40px;
+  transition: transform 0.5s;
+}
+.social i:hover {
+  color: #A6CF98;
+  transform: translateY(-3px);
+}
+.contact {
+  background: black;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  color: #fff;
+}
+
+
