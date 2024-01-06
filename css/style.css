@@ -1,7 +1,15 @@
+/* Navbar */
 .navbar-brand img {
   width: 70px;
   margin-right: 10px;
 }
+.icon-cart {
+  cursor: pointer;
+  padding-left: 10px;
+}
+/* Akhir Navbar */
+
+/* Banner */
 .main {
   background: url(../img/background.jpg)no-repeat;
   background-size: cover;
@@ -14,10 +22,9 @@
   color: white;
   font-weight: 700;
 }
-.icon-cart {
-  cursor: pointer;
-  padding-left: 10px;
-}
+/* Akhir Banner */
+
+/* Menu */
 .btn1 {
   font-size: 15px;
   color: white;
@@ -37,6 +44,12 @@
 .card:hover img {
   transform: scale(1.1);
 }
+.crop-img {
+  object-fit: cover;
+}
+/* Akhir Menu */
+
+/* Services */
 .lingkaran {
   display: inline-block;
   border-radius: 50%;
@@ -51,9 +64,9 @@
   top: 30px;
   cursor: pointer;
 }
-.crop-img {
-  object-fit: cover;
-}
+/* Akhir Services */
+
+/* Our Branch */
 .branch img {
   width: 250px;
   border: 10px solid #cccccc;
@@ -72,12 +85,16 @@ a.social {
   color: #A6CF98;
   transform: translateY(-3px);
 }
+/* contact */
 .contact {
   background: black;
   padding-bottom: 20px;
   padding-top: 55px;
   color: #fff;
 }
+/* Akhir contact */
+
+/* Footer */
 footer {
   padding: 10px;
   background-color: black;
@@ -96,3 +113,4 @@ footer li {
   display: inline;
   margin: 0.5rem;
 }
+/* Akhir Footer */
