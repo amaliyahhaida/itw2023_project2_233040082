@@ -74,9 +74,25 @@ a.social {
 }
 .contact {
   background: black;
-  padding-bottom: 10px;
-  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 55px;
   color: #fff;
 }
-
-
+footer {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer a:hover {
+  color: brown;
+}
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
+}
